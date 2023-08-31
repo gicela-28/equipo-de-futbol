@@ -1,0 +1,71 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cdc4c4;
+  height: 100%;
+}
+
+.logo {
+  height: 105px;
+  margin-bottom: 10px;
+}
+
+.body {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  border-radius: 17px;
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cuerpo {
+  display: flex;
+  justify-content: center;
+
+}
+
+input .form-label {
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  padding: 1px !important;
+  height: 38px;
+  min-height: 38px;
+  line-height: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.form-floating label {
+  transform-origin: 0 -80px;
+  display: flex;
+  font-size: 14px;
+  text-align: center;
+  align-items: center;
+}
+
+.form-floating input:focus + .form-label {
+  transform: translateY(-60%);
+  font-size: 13px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.form-floating>.form-control:focus~label::after,
+.form-floating>.form-control:not(:placeholder-shown)~label::after,
+.form-floating>.form-control-plaintext~label::after,
+.form-floating>.form-select~label::after {
+  padding-top: 3px;
+  height: 17px;
+  background-color: #d7c8d2e3;
+
+}

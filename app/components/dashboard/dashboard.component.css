@@ -1,0 +1,28 @@
+.fullscreen-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 94%;
+}
+
+.body1 {
+  background-color: rgba(242, 239, 239, 0.854);
+  box-shadow: 0px 3px 5px black;
+  border-radius: 20px;
+}
+
+.body2 {
+  justify-content: center;
+}
+
+.content-text {
+  display: flex;
+  justify-content: center;
+}
+
+.img-campo {
+
+  width: 100%;
+  margin-top: 50%;
+}
